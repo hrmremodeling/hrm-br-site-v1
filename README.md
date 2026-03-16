@@ -1,6 +1,6 @@
 # HRM Building & Remodeling LLC Website
 
-## Run locally
+## Local development
 
 ```bash
 npm install
@@ -9,17 +9,11 @@ npm run dev
 
 ## Deploy to Vercel
 
-1. Create a new GitHub repo.
-2. Upload all files from this folder.
-3. In Vercel, click **Add New Project**.
-4. Import the GitHub repo.
-5. Add your custom domain in **Project Settings → Domains**.
+1. Push this folder to a GitHub repo.
+2. Import the repo into Vercel.
+3. Deploy.
 
-## Google Reviews widget
-
-The Elfsight widget is already wired into `app/page.tsx`.
-
-## Assets
-
-- Logo: `public/logo.svg`
-- Project photos: `public/images/projects/*`
+## Notes
+- The Google Reviews widget loads via Elfsight in `app/page.tsx`.
+- Project images live in `public/images/projects/`.
+- The logo lives at `public/logo.svg`.
